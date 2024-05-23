@@ -14,6 +14,10 @@ export const changeToRandomWallpaper = (url?: string | null) => {
     }
 
     const videoElement = document.getElementById("fullscreen-bg-video") as HTMLVideoElement;
+    const source = document.getElementById("fullscreen-bg-video")?.querySelector("source");
+    if (source) {
+        source.remove();
+    }
     if (videoElement) {
         videoElement.setAttribute("src", randomWallpaper);
         videoElement.volume = 0; // Mute the video
