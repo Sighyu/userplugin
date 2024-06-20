@@ -22,7 +22,16 @@ To install the plugin, follow these steps:
 https://raw.githubusercontent.com/Sighyu/userplugin/main/assets/Discord_dlHVTR3USf.mp4
 
 ## Theme example
-//will add later
+useing quick css (tested with no themes and works fine)
+```css
+.theme-dark 
+{
+    --background-primary: rgba(45, 53, 60, 0.3);
+    --background-secondary: rgba(40, 47, 52, 0.3);
+    --background-secondary-alt: rgba(32, 40, 43, 0.3);
+    --background-tertiary: rgba(28, 34, 37, 0.3);
+}
+```
 
 ## Wallpaper Engine filter settings
 Follow these settings in wallpaper engine to find the perfect video wallpapers for you
